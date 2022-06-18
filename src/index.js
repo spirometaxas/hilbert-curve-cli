@@ -159,5 +159,6 @@ const create = function(n) {
 }
 
 module.exports = {
-  create: create
+  create: create,
+  hilbert: hilbert,
 };

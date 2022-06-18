@@ -1,6 +1,6 @@
 {
   "name": "hilbert-curve-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Print the Hilbert curve to the console!",
   "main": "./src/index.js",
   "bin": {
@@ -21,6 +21,7 @@
   "keywords": [ 
     "Hilbert",
     "Hilbert Curve", 
+    "fractal",
     "fractals", 
     "hilbert-curve-cli", 
     "cli",
