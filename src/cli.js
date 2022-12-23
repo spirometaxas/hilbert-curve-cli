@@ -3,12 +3,15 @@ const hilbert = require('./index.js');
 
 const printUsage = function(showIntro) {
     if (showIntro) {
-        console.log('\n Print the Hilbert Curve to the console!');
+        console.log(hilbert.create(5));
+        console.log(' Print the Hilbert Curve to the console!');
     }
     console.log('\n' + 
                 ' Usage:\n' + 
                 '   $ hilbert-curve-cli <n>\n' + 
                 '\n' + 
+                '   <n> is the recursive step, a number greater than or equal to 1\n' + 
+                '\n' +
                 ' Options:\n' + 
                 '   --line=<line>      Draw using a specific line type: [bold|double|standard]\n' + 
                 '   --rotate=<rotate>  Rotate the fractal: [left|right|flip|standard]\n');
