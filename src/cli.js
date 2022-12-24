@@ -3,7 +3,7 @@ const hilbert = require('./index.js');
 
 const printUsage = function(showIntro) {
     if (showIntro) {
-        console.log(hilbert.create(5));
+        console.log(hilbert.create(4));
         console.log(' Print the Hilbert Curve to the console!');
     }
     console.log('\n' + 

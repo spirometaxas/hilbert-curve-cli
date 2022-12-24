@@ -1,6 +1,6 @@
 {
   "name": "hilbert-curve-cli",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Print the Hilbert Curve to the console!",
   "main": "./src/index.js",
   "bin": {
