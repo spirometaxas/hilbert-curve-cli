@@ -14,7 +14,7 @@ const printUsage = function(showIntro) {
                 '\n' +
                 ' Options:\n' + 
                 '   --line=<line>      Draw using a specific line type: [bold|double|standard]\n' + 
-                '   --rotate=<rotate>  Rotate the fractal: [left|right|flip|standard]\n');
+                '   --rotate=<rotate>  Rotate the Hilbert Curve: [left|right|flip|standard]\n');
 }
 
 const getFlags = function(params) {
